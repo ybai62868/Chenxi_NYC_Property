@@ -1,0 +1,2777 @@
+root - INFO - There are 765 duplicated rows which will be dropped.
+root - INFO - 14176 rows without selling price info were dropped.
+root - INFO - 10891 rows with a selling price of $10 or below were dropped.
+root - INFO - 4206 rows with a construction date before 1900 were dropped.
+root - INFO - 25712 rows with a size of zero square feet were dropped.
+root - INFO - count    28771.000000
+mean         3.021654
+std         20.056453
+min          0.000000
+25%          1.000000
+50%          2.000000
+75%          2.000000
+max       1844.000000
+Name: residential_units, dtype: float64
+root - INFO - count    28771.000000
+mean         0.313406
+std         13.916011
+min          0.000000
+25%          0.000000
+50%          0.000000
+75%          0.000000
+max       2261.000000
+Name: commercial_units, dtype: float64
+root - INFO - count    2.877100e+04
+mean     4.141354e+03
+std      3.660585e+04
+min      1.680000e+02
+25%      2.000000e+03
+50%      2.500000e+03
+75%      4.000000e+03
+max      4.228300e+06
+Name: land_square_feet, dtype: float64
+root - INFO - count    2.877100e+04
+mean     1.681249e+06
+std      1.716137e+07
+min      1.900000e+01
+25%      4.320000e+05
+50%      6.300000e+05
+75%      9.680000e+05
+max      2.210000e+09
+Name: sale_price, dtype: float64
+root - INFO - count    28771.000000
+mean        75.644712
+std         30.761704
+min          0.000000
+25%         57.000000
+50%         86.000000
+75%         97.000000
+max        182.000000
+Name: sale_age, dtype: float64
+root - INFO - count    28771.000000
+mean         0.000139
+std          0.011790
+min          0.000000
+25%          0.000000
+50%          0.000000
+75%          0.000000
+max          1.000000
+Name: neighborhood_AIRPORT LA GUARDIA, dtype: float64
+root - INFO - count    28771.000000
+mean         0.000417
+std          0.020419
+min          0.000000
+25%          0.000000
+50%          0.000000
+75%          0.000000
+max          1.000000
+Name: neighborhood_ALPHABET CITY, dtype: float64
+root - INFO - count    28771.000000
+mean         0.003997
+std          0.063097
+min          0.000000
+25%          0.000000
+50%          0.000000
+75%          0.000000
+max          1.000000
+Name: neighborhood_ANNADALE, dtype: float64
+root - INFO - count    28771.000000
+mean         0.007855
+std          0.088282
+min          0.000000
+25%          0.000000
+50%          0.000000
+75%          0.000000
+max          1.000000
+Name: neighborhood_ARDEN HEIGHTS, dtype: float64
+root - INFO - count    28771.000000
+mean         0.001043
+std          0.032275
+min          0.000000
+25%          0.000000
+50%          0.000000
+75%          0.000000
+max          1.000000
+Name: neighborhood_ARROCHAR, dtype: float64
+root - INFO - count    28771.000000
+mean         0.000487
+std          0.022054
+min          0.000000
+25%          0.000000
+50%          0.000000
+75%          0.000000
+max          1.000000
+Name: neighborhood_ARROCHAR-SHORE ACRES, dtype: float64
+root - INFO - count    28771.000000
+mean         0.004657
+std          0.068088
+min          0.000000
+25%          0.000000
+50%          0.000000
+75%          0.000000
+max          1.000000
+Name: neighborhood_ARVERNE, dtype: float64
+root - INFO - count    28771.000000
+mean         0.011122
+std          0.104876
+min          0.000000
+25%          0.000000
+50%          0.000000
+75%          0.000000
+max          1.000000
+Name: neighborhood_ASTORIA, dtype: float64
+root - INFO - count    28771.000000
+mean         0.003545
+std          0.059437
+min          0.000000
+25%          0.000000
+50%          0.000000
+75%          0.000000
+max          1.000000
+Name: neighborhood_BATH BEACH, dtype: float64
+root - INFO - count    28771.000000
+mean         0.001425
+std          0.037724
+min          0.000000
+25%          0.000000
+50%          0.000000
+75%          0.000000
+max          1.000000
+Name: neighborhood_BATHGATE, dtype: float64
+root - INFO - count    28771.000000
+mean         0.009176
+std          0.095352
+min          0.000000
+25%          0.000000
+50%          0.000000
+75%          0.000000
+max          1.000000
+Name: neighborhood_BAY RIDGE, dtype: float64
+root - INFO - count    28771.000000
+mean         0.010045
+std          0.099721
+min          0.000000
+25%          0.000000
+50%          0.000000
+75%          0.000000
+max          1.000000
+Name: neighborhood_BAYCHESTER, dtype: float64
+root - INFO - count    28771.000000
+mean         0.014876
+std          0.121059
+min          0.000000
+25%          0.000000
+50%          0.000000
+75%          0.000000
+max          1.000000
+Name: neighborhood_BAYSIDE, dtype: float64
+root - INFO - count    28771.000000
+mean         0.003337
+std          0.057669
+min          0.000000
+25%          0.000000
+50%          0.000000
+75%          0.000000
+max          1.000000
+Name: neighborhood_BEDFORD PARK/NORWOOD, dtype: float64
+root - INFO - count    28771.000000
+mean         0.021167
+std          0.143944
+min          0.000000
+25%          0.000000
+50%          0.000000
+75%          0.000000
+max          1.000000
+Name: neighborhood_BEDFORD STUYVESANT, dtype: float64
+root - INFO - count    28771.000000
+mean         0.001529
+std          0.039077
+min          0.000000
+25%          0.000000
+50%          0.000000
+75%          0.000000
+max          1.000000
+Name: neighborhood_BEECHHURST, dtype: float64
+root - INFO - count    28771.000000
+mean         0.002294
+std          0.047841
+min          0.000000
+25%          0.000000
+50%          0.000000
+75%          0.000000
+max          1.000000
+Name: neighborhood_BELLE HARBOR, dtype: float64
+root - INFO - count    28771.000000
+mean         0.005283
+std          0.072494
+min          0.000000
+25%          0.000000
+50%          0.000000
+75%          0.000000
+max          1.000000
+Name: neighborhood_BELLEROSE, dtype: float64
+root - INFO - count    28771.000000
+mean         0.001634
+std          0.040385
+min          0.000000
+25%          0.000000
+50%          0.000000
+75%          0.000000
+max          1.000000
+Name: neighborhood_BELMONT, dtype: float64
+root - INFO - count    28771.000000
+mean         0.009037
+std          0.094634
+min          0.000000
+25%          0.000000
+50%          0.000000
+75%          0.000000
+max          1.000000
+Name: neighborhood_BENSONHURST, dtype: float64
+root - INFO - count    28771.000000
+mean         0.002607
+std          0.050991
+min          0.000000
+25%          0.000000
+50%          0.000000
+75%          0.000000
+max          1.000000
+Name: neighborhood_BERGEN BEACH, dtype: float64
+root - INFO - count    28771.000000
+mean         0.002259
+std          0.047478
+min          0.000000
+25%          0.000000
+50%          0.000000
+75%          0.000000
+max          1.000000
+Name: neighborhood_BOERUM HILL, dtype: float64
+root - INFO - count    28771.000000
+mean         0.013173
+std          0.114017
+min          0.000000
+25%          0.000000
+50%          0.000000
+75%          0.000000
+max          1.000000
+Name: neighborhood_BOROUGH PARK, dtype: float64
+root - INFO - count    28771.000000
+mean         0.001356
+std          0.036793
+min          0.000000
+25%          0.000000
+50%          0.000000
+75%          0.000000
+max          1.000000
+Name: neighborhood_BRIARWOOD, dtype: float64
+root - INFO - count    28771.000000
+mean         0.001981
+std          0.044467
+min          0.000000
+25%          0.000000
+50%          0.000000
+75%          0.000000
+max          1.000000
+Name: neighborhood_BRIGHTON BEACH, dtype: float64
+root - INFO - count    28771.000000
+mean         0.001147
+std          0.033848
+min          0.000000
+25%          0.000000
+50%          0.000000
+75%          0.000000
+max          1.000000
+Name: neighborhood_BROAD CHANNEL, dtype: float64
+root - INFO - count    28771.000000
+mean         0.000035
+std          0.005896
+min          0.000000
+25%          0.000000
+50%          0.000000
+75%          0.000000
+max          1.000000
+Name: neighborhood_BRONX PARK, dtype: float64
+root - INFO - count    28771.000000
+mean         0.005909
+std          0.076642
+min          0.000000
+25%          0.000000
+50%          0.000000
+75%          0.000000
+max          1.000000
+Name: neighborhood_BRONXDALE, dtype: float64
+root - INFO - count    28771.000000
+mean         0.001321
+std          0.036319
+min          0.000000
+25%          0.000000
+50%          0.000000
+75%          0.000000
+max          1.000000
+Name: neighborhood_BROOKLYN HEIGHTS, dtype: float64
+root - INFO - count    28771.000000
+mean         0.004762
+std          0.068842
+min          0.000000
+25%          0.000000
+50%          0.000000
+75%          0.000000
+max          1.000000
+Name: neighborhood_BROWNSVILLE, dtype: float64
+root - INFO - count    28771.000000
+mean         0.007994
+std          0.089054
+min          0.000000
+25%          0.000000
+50%          0.000000
+75%          0.000000
+max          1.000000
+Name: neighborhood_BULLS HEAD, dtype: float64
+root - INFO - count    28771.000000
+mean         0.000799
+std          0.028263
+min          0.000000
+25%          0.000000
+50%          0.000000
+75%          0.000000
+max          1.000000
+Name: neighborhood_BUSH TERMINAL, dtype: float64
+root - INFO - count    28771.000000
+mean         0.011956
+std          0.108692
+min          0.000000
+25%          0.000000
+50%          0.000000
+75%          0.000000
+max          1.000000
+Name: neighborhood_BUSHWICK, dtype: float64
+root - INFO - count    28771.000000
+mean         0.004692
+std          0.068340
+min          0.000000
+25%          0.000000
+50%          0.000000
+75%          0.000000
+max          1.000000
+Name: neighborhood_CAMBRIA HEIGHTS, dtype: float64
+root - INFO - count    28771.000000
+mean         0.014042
+std          0.117666
+min          0.000000
+25%          0.000000
+50%          0.000000
+75%          0.000000
+max          1.000000
+Name: neighborhood_CANARSIE, dtype: float64
+root - INFO - count    28771.000000
+mean         0.002051
+std          0.045239
+min          0.000000
+25%          0.000000
+50%          0.000000
+75%          0.000000
+max          1.000000
+Name: neighborhood_CARROLL GARDENS, dtype: float64
+root - INFO - count    28771.000000
+mean         0.003962
+std          0.062823
+min          0.000000
+25%          0.000000
+50%          0.000000
+75%          0.000000
+max          1.000000
+Name: neighborhood_CASTLE HILL/UNIONPORT, dtype: float64
+root - INFO - count    28771.000000
+mean         0.003441
+std          0.058560
+min          0.000000
+25%          0.000000
+50%          0.000000
+75%          0.000000
+max          1.000000
+Name: neighborhood_CASTLETON CORNERS, dtype: float64
+root - INFO - count    28771.000000
+mean         0.001321
+std          0.036319
+min          0.000000
+25%          0.000000
+50%          0.000000
+75%          0.000000
+max          1.000000
+Name: neighborhood_CHELSEA, dtype: float64
+root - INFO - count    28771.000000
+mean         0.000313
+std          0.017684
+min          0.000000
+25%          0.000000
+50%          0.000000
+75%          0.000000
+max          1.000000
+Name: neighborhood_CHINATOWN, dtype: float64
+root - INFO - count    28771.000000
+mean         0.001495
+std          0.038631
+min          0.000000
+25%          0.000000
+50%          0.000000
+75%          0.000000
+max          1.000000
+Name: neighborhood_CITY ISLAND, dtype: float64
+root - INFO - count    28771.000000
+mean         0.000035
+std          0.005896
+min          0.000000
+25%          0.000000
+50%          0.000000
+75%          0.000000
+max          1.000000
+Name: neighborhood_CITY ISLAND-PELHAM STRIP, dtype: float64
+root - INFO - count    28771.000000
+mean         0.000278
+std          0.016673
+min          0.000000
+25%          0.000000
+50%          0.000000
+75%          0.000000
+max          1.000000
+Name: neighborhood_CIVIC CENTER, dtype: float64
+root - INFO - count    28771.000000
+mean         0.000348
+std          0.018640
+min          0.000000
+25%          0.000000
+50%          0.000000
+75%          0.000000
+max          1.000000
+Name: neighborhood_CLINTON, dtype: float64
+root - INFO - count    28771.000000
+mean         0.002329
+std          0.048202
+min          0.000000
+25%          0.000000
+50%          0.000000
+75%          0.000000
+max          1.000000
+Name: neighborhood_CLINTON HILL, dtype: float64
+root - INFO - count    28771.000000
+mean         0.002468
+std          0.049616
+min          0.000000
+25%          0.000000
+50%          0.000000
+75%          0.000000
+max          1.000000
+Name: neighborhood_CLOVE LAKES, dtype: float64
+root - INFO - count    28771.000000
+mean         0.000104
+std          0.010211
+min          0.000000
+25%          0.000000
+50%          0.000000
+75%          0.000000
+max          1.000000
+Name: neighborhood_CO-OP CITY, dtype: float64
+root - INFO - count    28771.00000
+mean         0.00066
+std          0.02569
+min          0.00000
+25%          0.00000
+50%          0.00000
+75%          0.00000
+max          1.00000
+Name: neighborhood_COBBLE HILL, dtype: float64
+root - INFO - count    28771.000000
+mean         0.000626
+std          0.025005
+min          0.000000
+25%          0.000000
+50%          0.000000
+75%          0.000000
+max          1.000000
+Name: neighborhood_COBBLE HILL-WEST, dtype: float64
+root - INFO - count    28771.000000
+mean         0.008411
+std          0.091328
+min          0.000000
+25%          0.000000
+50%          0.000000
+75%          0.000000
+max          1.000000
+Name: neighborhood_COLLEGE POINT, dtype: float64
+root - INFO - count    28771.000000
+mean         0.002850
+std          0.053311
+min          0.000000
+25%          0.000000
+50%          0.000000
+75%          0.000000
+max          1.000000
+Name: neighborhood_CONCORD, dtype: float64
+root - INFO - count    28771.000000
+mean         0.000626
+std          0.025005
+min          0.000000
+25%          0.000000
+50%          0.000000
+75%          0.000000
+max          1.000000
+Name: neighborhood_CONCORD-FOX HILLS, dtype: float64
+root - INFO - count    28771.000000
+mean         0.001807
+std          0.042476
+min          0.000000
+25%          0.000000
+50%          0.000000
+75%          0.000000
+max          1.000000
+Name: neighborhood_CONEY ISLAND, dtype: float64
+root - INFO - count    28771.000000
+mean         0.009454
+std          0.096772
+min          0.000000
+25%          0.000000
+50%          0.000000
+75%          0.000000
+max          1.000000
+Name: neighborhood_CORONA, dtype: float64
+root - INFO - count    28771.000000
+mean         0.003650
+std          0.060302
+min          0.000000
+25%          0.000000
+50%          0.000000
+75%          0.000000
+max          1.000000
+Name: neighborhood_COUNTRY CLUB, dtype: float64
+root - INFO - count    28771.000000
+mean         0.001286
+std          0.035839
+min          0.000000
+25%          0.000000
+50%          0.000000
+75%          0.000000
+max          1.000000
+Name: neighborhood_CROTONA PARK, dtype: float64
+root - INFO - count    28771.000000
+mean         0.010497
+std          0.101916
+min          0.000000
+25%          0.000000
+50%          0.000000
+75%          0.000000
+max          1.000000
+Name: neighborhood_CROWN HEIGHTS, dtype: float64
+root - INFO - count    28771.000000
+mean         0.008481
+std          0.091701
+min          0.000000
+25%          0.000000
+50%          0.000000
+75%          0.000000
+max          1.000000
+Name: neighborhood_CYPRESS HILLS, dtype: float64
+root - INFO - count    28771.000000
+mean         0.001981
+std          0.044467
+min          0.000000
+25%          0.000000
+50%          0.000000
+75%          0.000000
+max          1.000000
+Name: neighborhood_DONGAN HILLS, dtype: float64
+root - INFO - count    28771.000000
+mean         0.001321
+std          0.036319
+min          0.000000
+25%          0.000000
+50%          0.000000
+75%          0.000000
+max          1.000000
+Name: neighborhood_DONGAN HILLS-COLONY, dtype: float64
+root - INFO - count    28771.000000
+mean         0.000174
+std          0.013182
+min          0.000000
+25%          0.000000
+50%          0.000000
+75%          0.000000
+max          1.000000
+Name: neighborhood_DONGAN HILLS-OLD TOWN, dtype: float64
+root - INFO - count    28771.000000
+mean         0.002885
+std          0.053634
+min          0.000000
+25%          0.000000
+50%          0.000000
+75%          0.000000
+max          1.000000
+Name: neighborhood_DOUGLASTON, dtype: float64
+root - INFO - count    28771.000000
+mean         0.000104
+std          0.010211
+min          0.000000
+25%          0.000000
+50%          0.000000
+75%          0.000000
+max          1.000000
+Name: neighborhood_DOWNTOWN-FULTON FERRY, dtype: float64
+root - INFO - count    28771.000000
+mean         0.000313
+std          0.017684
+min          0.000000
+25%          0.000000
+50%          0.000000
+75%          0.000000
+max          1.000000
+Name: neighborhood_DOWNTOWN-FULTON MALL, dtype: float64
+root - INFO - count    28771.000000
+mean         0.000382
+std          0.019550
+min          0.000000
+25%          0.000000
+50%          0.000000
+75%          0.000000
+max          1.000000
+Name: neighborhood_DOWNTOWN-METROTECH, dtype: float64
+root - INFO - count    28771.000000
+mean         0.005526
+std          0.074135
+min          0.000000
+25%          0.000000
+50%          0.000000
+75%          0.000000
+max          1.000000
+Name: neighborhood_DYKER HEIGHTS, dtype: float64
+root - INFO - count    28771.000000
+mean         0.005909
+std          0.076642
+min          0.000000
+25%          0.000000
+50%          0.000000
+75%          0.000000
+max          1.000000
+Name: neighborhood_EAST ELMHURST, dtype: float64
+root - INFO - count    28771.000000
+mean         0.021132
+std          0.143828
+min          0.000000
+25%          0.000000
+50%          0.000000
+75%          0.000000
+max          1.000000
+Name: neighborhood_EAST NEW YORK, dtype: float64
+root - INFO - count    28771.000000
+mean         0.000035
+std          0.005896
+min          0.000000
+25%          0.000000
+50%          0.000000
+75%          0.000000
+max          1.000000
+Name: neighborhood_EAST RIVER, dtype: float64
+root - INFO - count    28771.000000
+mean         0.003024
+std          0.054908
+min          0.000000
+25%          0.000000
+50%          0.000000
+75%          0.000000
+max          1.000000
+Name: neighborhood_EAST TREMONT, dtype: float64
+root - INFO - count    28771.000000
+mean         0.000521
+std          0.022828
+min          0.000000
+25%          0.000000
+50%          0.000000
+75%          0.000000
+max          1.000000
+Name: neighborhood_EAST VILLAGE, dtype: float64
+root - INFO - count    28771.000000
+mean         0.008411
+std          0.091328
+min          0.000000
+25%          0.000000
+50%          0.000000
+75%          0.000000
+max          1.000000
+Name: neighborhood_ELMHURST, dtype: float64
+root - INFO - count    28771.000000
+mean         0.008342
+std          0.090953
+min          0.000000
+25%          0.000000
+50%          0.000000
+75%          0.000000
+max          1.000000
+Name: neighborhood_ELTINGVILLE, dtype: float64
+root - INFO - count    28771.000000
+mean         0.000417
+std          0.020419
+min          0.000000
+25%          0.000000
+50%          0.000000
+75%          0.000000
+max          1.000000
+Name: neighborhood_EMERSON HILL, dtype: float64
+root - INFO - count    28771.000000
+mean         0.007925
+std          0.088669
+min          0.000000
+25%          0.000000
+50%          0.000000
+75%          0.000000
+max          1.000000
+Name: neighborhood_FAR ROCKAWAY, dtype: float64
+root - INFO - count    28771.000000
+mean         0.000487
+std          0.022054
+min          0.000000
+25%          0.000000
+50%          0.000000
+75%          0.000000
+max          1.000000
+Name: neighborhood_FASHION, dtype: float64
+root - INFO - count    28771.000000
+mean         0.000556
+std          0.023576
+min          0.000000
+25%          0.000000
+50%          0.000000
+75%          0.000000
+max          1.000000
+Name: neighborhood_FIELDSTON, dtype: float64
+root - INFO - count    28771.000000
+mean         0.000382
+std          0.019550
+min          0.000000
+25%          0.000000
+50%          0.000000
+75%          0.000000
+max          1.000000
+Name: neighborhood_FINANCIAL, dtype: float64
+root - INFO - count    28771.000000
+mean         0.008168
+std          0.090008
+min          0.000000
+25%          0.000000
+50%          0.000000
+75%          0.000000
+max          1.000000
+Name: neighborhood_FLATBUSH-CENTRAL, dtype: float64
+root - INFO - count    28771.000000
+mean         0.016371
+std          0.126898
+min          0.000000
+25%          0.000000
+50%          0.000000
+75%          0.000000
+max          1.000000
+Name: neighborhood_FLATBUSH-EAST, dtype: float64
+root - INFO - count    28771.000000
+mean         0.003024
+std          0.054908
+min          0.000000
+25%          0.000000
+50%          0.000000
+75%          0.000000
+max          1.000000
+Name: neighborhood_FLATBUSH-LEFFERTS GARDEN, dtype: float64
+root - INFO - count    28771.000000
+mean         0.006534
+std          0.080572
+min          0.000000
+25%          0.000000
+50%          0.000000
+75%          0.000000
+max          1.000000
+Name: neighborhood_FLATBUSH-NORTH, dtype: float64
+root - INFO - count    28771.000000
+mean         0.000313
+std          0.017684
+min          0.000000
+25%          0.000000
+50%          0.000000
+75%          0.000000
+max          1.000000
+Name: neighborhood_FLATIRON, dtype: float64
+root - INFO - count    28771.000000
+mean         0.004240
+std          0.064981
+min          0.000000
+25%          0.000000
+50%          0.000000
+75%          0.000000
+max          1.000000
+Name: neighborhood_FLATLANDS, dtype: float64
+root - INFO - count    28771.000000
+mean         0.003789
+std          0.061435
+min          0.000000
+25%          0.000000
+50%          0.000000
+75%          0.000000
+max          1.000000
+Name: neighborhood_FLORAL PARK, dtype: float64
+root - INFO - count    28771.000000
+mean         0.027284
+std          0.162914
+min          0.000000
+25%          0.000000
+50%          0.000000
+75%          0.000000
+max          1.000000
+Name: neighborhood_FLUSHING-NORTH, dtype: float64
+root - INFO - count    28771.000000
+mean         0.010392
+std          0.101414
+min          0.000000
+25%          0.000000
+50%          0.000000
+75%          0.000000
+max          1.000000
+Name: neighborhood_FLUSHING-SOUTH, dtype: float64
+root - INFO - count    28771.000000
+mean         0.001668
+std          0.040812
+min          0.000000
+25%          0.000000
+50%          0.000000
+75%          0.000000
+max          1.000000
+Name: neighborhood_FORDHAM, dtype: float64
+root - INFO - count    28771.000000
+mean         0.005909
+std          0.076642
+min          0.000000
+25%          0.000000
+50%          0.000000
+75%          0.000000
+max          1.000000
+Name: neighborhood_FOREST HILLS, dtype: float64
+root - INFO - count    28771.000000
+mean         0.001599
+std          0.039954
+min          0.000000
+25%          0.000000
+50%          0.000000
+75%          0.000000
+max          1.000000
+Name: neighborhood_FORT GREENE, dtype: float64
+root - INFO - count    28771.000000
+mean         0.000070
+std          0.008337
+min          0.000000
+25%          0.000000
+50%          0.000000
+75%          0.000000
+max          1.000000
+Name: neighborhood_FRESH KILLS, dtype: float64
+root - INFO - count    28771.000000
+mean         0.002711
+std          0.051998
+min          0.000000
+25%          0.000000
+50%          0.000000
+75%          0.000000
+max          1.000000
+Name: neighborhood_FRESH MEADOWS, dtype: float64
+root - INFO - count    28771.000000
+mean         0.002572
+std          0.050651
+min          0.000000
+25%          0.000000
+50%          0.000000
+75%          0.000000
+max          1.000000
+Name: neighborhood_GERRITSEN BEACH, dtype: float64
+root - INFO - count    28771.000000
+mean         0.001425
+std          0.037724
+min          0.000000
+25%          0.000000
+50%          0.000000
+75%          0.000000
+max          1.000000
+Name: neighborhood_GLEN OAKS, dtype: float64
+root - INFO - count    28771.000000
+mean         0.007403
+std          0.085725
+min          0.000000
+25%          0.000000
+50%          0.000000
+75%          0.000000
+max          1.000000
+Name: neighborhood_GLENDALE, dtype: float64
+root - INFO - count    28771.000000
+mean         0.002051
+std          0.045239
+min          0.000000
+25%          0.000000
+50%          0.000000
+75%          0.000000
+max          1.000000
+Name: neighborhood_GOWANUS, dtype: float64
+root - INFO - count    28771.000000
+mean         0.000452
+std          0.021252
+min          0.000000
+25%          0.000000
+50%          0.000000
+75%          0.000000
+max          1.000000
+Name: neighborhood_GRAMERCY, dtype: float64
+root - INFO - count    28771.000000
+mean         0.002329
+std          0.048202
+min          0.000000
+25%          0.000000
+50%          0.000000
+75%          0.000000
+max          1.000000
+Name: neighborhood_GRANT CITY, dtype: float64
+root - INFO - count    28771.000000
+mean         0.002051
+std          0.045239
+min          0.000000
+25%          0.000000
+50%          0.000000
+75%          0.000000
+max          1.000000
+Name: neighborhood_GRASMERE, dtype: float64
+root - INFO - count    28771.000000
+mean         0.008237
+std          0.090387
+min          0.000000
+25%          0.000000
+50%          0.000000
+75%          0.000000
+max          1.000000
+Name: neighborhood_GRAVESEND, dtype: float64
+root - INFO - count    28771.000000
+mean         0.016788
+std          0.128478
+min          0.000000
+25%          0.000000
+50%          0.000000
+75%          0.000000
+max          1.000000
+Name: neighborhood_GREAT KILLS, dtype: float64
+root - INFO - count    28771.000000
+mean         0.001495
+std          0.038631
+min          0.000000
+25%          0.000000
+50%          0.000000
+75%          0.000000
+max          1.000000
+Name: neighborhood_GREAT KILLS-BAY TERRACE, dtype: float64
+root - INFO - count    28771.000000
+mean         0.003928
+std          0.062548
+min          0.000000
+25%          0.000000
+50%          0.000000
+75%          0.000000
+max          1.000000
+Name: neighborhood_GREENPOINT, dtype: float64
+root - INFO - count    28771.000000
+mean         0.000765
+std          0.027642
+min          0.000000
+25%          0.000000
+50%          0.000000
+75%          0.000000
+max          1.000000
+Name: neighborhood_GREENWICH VILLAGE-CENTRAL, dtype: float64
+root - INFO - count    28771.000000
+mean         0.001321
+std          0.036319
+min          0.000000
+25%          0.000000
+50%          0.000000
+75%          0.000000
+max          1.000000
+Name: neighborhood_GREENWICH VILLAGE-WEST, dtype: float64
+root - INFO - count    28771.000000
+mean         0.001321
+std          0.036319
+min          0.000000
+25%          0.000000
+50%          0.000000
+75%          0.000000
+max          1.000000
+Name: neighborhood_GRYMES HILL, dtype: float64
+root - INFO - count    28771.000000
+mean         0.001390
+std          0.037261
+min          0.000000
+25%          0.000000
+50%          0.000000
+75%          0.000000
+max          1.000000
+Name: neighborhood_HAMMELS, dtype: float64
+root - INFO - count    28771.000000
+mean         0.004796
+std          0.069092
+min          0.000000
+25%          0.000000
+50%          0.000000
+75%          0.000000
+max          1.000000
+Name: neighborhood_HARLEM-CENTRAL, dtype: float64
+root - INFO - count    28771.000000
+mean         0.003267
+std          0.057067
+min          0.000000
+25%          0.000000
+50%          0.000000
+75%          0.000000
+max          1.000000
+Name: neighborhood_HARLEM-EAST, dtype: float64
+root - INFO - count    28771.000000
+mean         0.001634
+std          0.040385
+min          0.000000
+25%          0.000000
+50%          0.000000
+75%          0.000000
+max          1.000000
+Name: neighborhood_HARLEM-UPPER, dtype: float64
+root - INFO - count    28771.000000
+mean         0.000348
+std          0.018640
+min          0.000000
+25%          0.000000
+50%          0.000000
+75%          0.000000
+max          1.000000
+Name: neighborhood_HARLEM-WEST, dtype: float64
+root - INFO - count    28771.000000
+mean         0.002085
+std          0.045620
+min          0.000000
+25%          0.000000
+50%          0.000000
+75%          0.000000
+max          1.000000
+Name: neighborhood_HIGHBRIDGE/MORRIS HEIGHTS, dtype: float64
+root - INFO - count    28771.000000
+mean         0.001286
+std          0.035839
+min          0.000000
+25%          0.000000
+50%          0.000000
+75%          0.000000
+max          1.000000
+Name: neighborhood_HILLCREST, dtype: float64
+root - INFO - count    28771.000000
+mean         0.010497
+std          0.101916
+min          0.000000
+25%          0.000000
+50%          0.000000
+75%          0.000000
+max          1.000000
+Name: neighborhood_HOLLIS, dtype: float64
+root - INFO - count    28771.000000
+mean         0.000973
+std          0.031182
+min          0.000000
+25%          0.000000
+50%          0.000000
+75%          0.000000
+max          1.000000
+Name: neighborhood_HOLLIS HILLS, dtype: float64
+root - INFO - count    28771.000000
+mean         0.001529
+std          0.039077
+min          0.000000
+25%          0.000000
+50%          0.000000
+75%          0.000000
+max          1.000000
+Name: neighborhood_HOLLISWOOD, dtype: float64
+root - INFO - count    28771.000000
+mean         0.007264
+std          0.084922
+min          0.000000
+25%          0.000000
+50%          0.000000
+75%          0.000000
+max          1.000000
+Name: neighborhood_HOWARD BEACH, dtype: float64
+root - INFO - count    28771.000000
+mean         0.002920
+std          0.053955
+min          0.000000
+25%          0.000000
+50%          0.000000
+75%          0.000000
+max          1.000000
+Name: neighborhood_HUGUENOT, dtype: float64
+root - INFO - count    28771.00000
+mean         0.00146
+std          0.03818
+min          0.00000
+25%          0.00000
+50%          0.00000
+75%          0.00000
+max          1.00000
+Name: neighborhood_HUNTS POINT, dtype: float64
+root - INFO - count    28771.000000
+mean         0.000591
+std          0.024301
+min          0.000000
+25%          0.000000
+50%          0.000000
+75%          0.000000
+max          1.000000
+Name: neighborhood_INWOOD, dtype: float64
+root - INFO - count    28771.000000
+mean         0.007751
+std          0.087699
+min          0.000000
+25%          0.000000
+50%          0.000000
+75%          0.000000
+max          1.000000
+Name: neighborhood_JACKSON HEIGHTS, dtype: float64
+root - INFO - count    28771.000000
+mean         0.003615
+std          0.060015
+min          0.000000
+25%          0.000000
+50%          0.000000
+75%          0.000000
+max          1.000000
+Name: neighborhood_JAMAICA, dtype: float64
+root - INFO - count    28771.000000
+mean         0.000417
+std          0.020419
+min          0.000000
+25%          0.000000
+50%          0.000000
+75%          0.000000
+max          1.000000
+Name: neighborhood_JAMAICA BAY, dtype: float64
+root - INFO - count    28771.000000
+mean         0.002433
+std          0.049266
+min          0.000000
+25%          0.000000
+50%          0.000000
+75%          0.000000
+max          1.000000
+Name: neighborhood_JAMAICA ESTATES, dtype: float64
+root - INFO - count    28771.000000
+mean         0.001946
+std          0.044076
+min          0.000000
+25%          0.000000
+50%          0.000000
+75%          0.000000
+max          1.000000
+Name: neighborhood_JAMAICA HILLS, dtype: float64
+root - INFO - count    28771.000000
+mean         0.000348
+std          0.018640
+min          0.000000
+25%          0.000000
+50%          0.000000
+75%          0.000000
+max          1.000000
+Name: neighborhood_JAVITS CENTER, dtype: float64
+root - INFO - count    28771.000000
+mean         0.001356
+std          0.036793
+min          0.000000
+25%          0.000000
+50%          0.000000
+75%          0.000000
+max          1.000000
+Name: neighborhood_KENSINGTON, dtype: float64
+root - INFO - count    28771.000000
+mean         0.001807
+std          0.042476
+min          0.000000
+25%          0.000000
+50%          0.000000
+75%          0.000000
+max          1.000000
+Name: neighborhood_KEW GARDENS, dtype: float64
+root - INFO - count    28771.000000
+mean         0.001738
+std          0.041652
+min          0.000000
+25%          0.000000
+50%          0.000000
+75%          0.000000
+max          1.000000
+Name: neighborhood_KINGSBRIDGE HTS/UNIV HTS, dtype: float64
+root - INFO - count    28771.000000
+mean         0.002190
+std          0.046744
+min          0.000000
+25%          0.000000
+50%          0.000000
+75%          0.000000
+max          1.000000
+Name: neighborhood_KINGSBRIDGE/JEROME PARK, dtype: float64
+root - INFO - count    28771.000000
+mean         0.000417
+std          0.020419
+min          0.000000
+25%          0.000000
+50%          0.000000
+75%          0.000000
+max          1.000000
+Name: neighborhood_KIPS BAY, dtype: float64
+root - INFO - count    28771.000000
+mean         0.007855
+std          0.088282
+min          0.000000
+25%          0.000000
+50%          0.000000
+75%          0.000000
+max          1.000000
+Name: neighborhood_LAURELTON, dtype: float64
+root - INFO - count    28771.000000
+mean         0.000139
+std          0.011790
+min          0.000000
+25%          0.000000
+50%          0.000000
+75%          0.000000
+max          1.000000
+Name: neighborhood_LITTLE ITALY, dtype: float64
+root - INFO - count    28771.000000
+mean         0.003337
+std          0.057669
+min          0.000000
+25%          0.000000
+50%          0.000000
+75%          0.000000
+max          1.000000
+Name: neighborhood_LITTLE NECK, dtype: float64
+root - INFO - count    28771.000000
+mean         0.000765
+std          0.027642
+min          0.000000
+25%          0.000000
+50%          0.000000
+75%          0.000000
+max          1.000000
+Name: neighborhood_LIVINGSTON, dtype: float64
+root - INFO - count    28771.000000
+mean         0.002989
+std          0.054592
+min          0.000000
+25%          0.000000
+50%          0.000000
+75%          0.000000
+max          1.000000
+Name: neighborhood_LONG ISLAND CITY, dtype: float64
+root - INFO - count    28771.000000
+mean         0.000938
+std          0.030620
+min          0.000000
+25%          0.000000
+50%          0.000000
+75%          0.000000
+max          1.000000
+Name: neighborhood_LOWER EAST SIDE, dtype: float64
+root - INFO - count    28771.000000
+mean         0.005109
+std          0.071298
+min          0.000000
+25%          0.000000
+50%          0.000000
+75%          0.000000
+max          1.000000
+Name: neighborhood_MADISON, dtype: float64
+root - INFO - count    28771.00000
+mean         0.00146
+std          0.03818
+min          0.00000
+25%          0.00000
+50%          0.00000
+75%          0.00000
+max          1.00000
+Name: neighborhood_MANHATTAN BEACH, dtype: float64
+root - INFO - count    28771.000000
+mean         0.000521
+std          0.022828
+min          0.000000
+25%          0.000000
+50%          0.000000
+75%          0.000000
+max          1.000000
+Name: neighborhood_MANHATTAN VALLEY, dtype: float64
+root - INFO - count    28771.000000
+mean         0.003302
+std          0.057369
+min          0.000000
+25%          0.000000
+50%          0.000000
+75%          0.000000
+max          1.000000
+Name: neighborhood_MANOR HEIGHTS, dtype: float64
+root - INFO - count    28771.000000
+mean         0.007334
+std          0.085324
+min          0.000000
+25%          0.000000
+50%          0.000000
+75%          0.000000
+max          1.000000
+Name: neighborhood_MARINE PARK, dtype: float64
+root - INFO - count    28771.000000
+mean         0.005804
+std          0.075967
+min          0.000000
+25%          0.000000
+50%          0.000000
+75%          0.000000
+max          1.000000
+Name: neighborhood_MARINERS HARBOR, dtype: float64
+root - INFO - count    28771.000000
+mean         0.007264
+std          0.084922
+min          0.000000
+25%          0.000000
+50%          0.000000
+75%          0.000000
+max          1.000000
+Name: neighborhood_MASPETH, dtype: float64
+root - INFO - count    28771.000000
+mean         0.003198
+std          0.056458
+min          0.000000
+25%          0.000000
+50%          0.000000
+75%          0.000000
+max          1.000000
+Name: neighborhood_MELROSE/CONCOURSE, dtype: float64
+root - INFO - count    28771.000000
+mean         0.008967
+std          0.094272
+min          0.000000
+25%          0.000000
+50%          0.000000
+75%          0.000000
+max          1.000000
+Name: neighborhood_MIDDLE VILLAGE, dtype: float64
+root - INFO - count    28771.000000
+mean         0.006708
+std          0.081630
+min          0.000000
+25%          0.000000
+50%          0.000000
+75%          0.000000
+max          1.000000
+Name: neighborhood_MIDLAND BEACH, dtype: float64
+root - INFO - count    28771.000000
+mean         0.000313
+std          0.017684
+min          0.000000
+25%          0.000000
+50%          0.000000
+75%          0.000000
+max          1.000000
+Name: neighborhood_MIDTOWN CBD, dtype: float64
+root - INFO - count    28771.000000
+mean         0.000591
+std          0.024301
+min          0.000000
+25%          0.000000
+50%          0.000000
+75%          0.000000
+max          1.000000
+Name: neighborhood_MIDTOWN EAST, dtype: float64
+root - INFO - count    28771.000000
+mean         0.001634
+std          0.040385
+min          0.000000
+25%          0.000000
+50%          0.000000
+75%          0.000000
+max          1.000000
+Name: neighborhood_MIDTOWN WEST, dtype: float64
+root - INFO - count    28771.000000
+mean         0.006291
+std          0.079068
+min          0.000000
+25%          0.000000
+50%          0.000000
+75%          0.000000
+max          1.000000
+Name: neighborhood_MIDWOOD, dtype: float64
+root - INFO - count    28771.000000
+mean         0.002920
+std          0.053955
+min          0.000000
+25%          0.000000
+50%          0.000000
+75%          0.000000
+max          1.000000
+Name: neighborhood_MILL BASIN, dtype: float64
+root - INFO - count    28771.000000
+mean         0.006048
+std          0.077533
+min          0.000000
+25%          0.000000
+50%          0.000000
+75%          0.000000
+max          1.000000
+Name: neighborhood_MORRIS PARK/VAN NEST, dtype: float64
+root - INFO - count    28771.000000
+mean         0.006639
+std          0.081208
+min          0.000000
+25%          0.000000
+50%          0.000000
+75%          0.000000
+max          1.000000
+Name: neighborhood_MORRISANIA/LONGWOOD, dtype: float64
+root - INFO - count    28771.000000
+mean         0.003093
+std          0.055533
+min          0.000000
+25%          0.000000
+50%          0.000000
+75%          0.000000
+max          1.000000
+Name: neighborhood_MOTT HAVEN/PORT MORRIS, dtype: float64
+root - INFO - count    28771.000000
+mean         0.001912
+std          0.043681
+min          0.000000
+25%          0.000000
+50%          0.000000
+75%          0.000000
+max          1.000000
+Name: neighborhood_MOUNT HOPE/MOUNT EDEN, dtype: float64
+root - INFO - count    28771.000000
+mean         0.000904
+std          0.030048
+min          0.000000
+25%          0.000000
+50%          0.000000
+75%          0.000000
+max          1.000000
+Name: neighborhood_MURRAY HILL, dtype: float64
+root - INFO - count    28771.000000
+mean         0.000765
+std          0.027642
+min          0.000000
+25%          0.000000
+50%          0.000000
+75%          0.000000
+max          1.000000
+Name: neighborhood_NAVY YARD, dtype: float64
+root - INFO - count    28771.000000
+mean         0.000765
+std          0.027642
+min          0.000000
+25%          0.000000
+50%          0.000000
+75%          0.000000
+max          1.000000
+Name: neighborhood_NEPONSIT, dtype: float64
+root - INFO - count    28771.000000
+mean         0.004449
+std          0.066553
+min          0.000000
+25%          0.000000
+50%          0.000000
+75%          0.000000
+max          1.000000
+Name: neighborhood_NEW BRIGHTON, dtype: float64
+root - INFO - count    28771.000000
+mean         0.000070
+std          0.008337
+min          0.000000
+25%          0.000000
+50%          0.000000
+75%          0.000000
+max          1.000000
+Name: neighborhood_NEW BRIGHTON-ST. GEORGE, dtype: float64
+root - INFO - count    28771.000000
+mean         0.003719
+std          0.060871
+min          0.000000
+25%          0.000000
+50%          0.000000
+75%          0.000000
+max          1.000000
+Name: neighborhood_NEW DORP, dtype: float64
+root - INFO - count    28771.000000
+mean         0.002885
+std          0.053634
+min          0.000000
+25%          0.000000
+50%          0.000000
+75%          0.000000
+max          1.000000
+Name: neighborhood_NEW DORP-BEACH, dtype: float64
+root - INFO - count    28771.000000
+mean         0.002398
+std          0.048914
+min          0.000000
+25%          0.000000
+50%          0.000000
+75%          0.000000
+max          1.000000
+Name: neighborhood_NEW DORP-HEIGHTS, dtype: float64
+root - INFO - count    28771.000000
+mean         0.006534
+std          0.080572
+min          0.000000
+25%          0.000000
+50%          0.000000
+75%          0.000000
+max          1.000000
+Name: neighborhood_NEW SPRINGVILLE, dtype: float64
+root - INFO - count    28771.000000
+mean         0.002363
+std          0.048559
+min          0.000000
+25%          0.000000
+50%          0.000000
+75%          0.000000
+max          1.000000
+Name: neighborhood_OAKLAND GARDENS, dtype: float64
+root - INFO - count    28771.000000
+mean         0.000904
+std          0.030048
+min          0.000000
+25%          0.000000
+50%          0.000000
+75%          0.000000
+max          1.000000
+Name: neighborhood_OAKWOOD, dtype: float64
+root - INFO - count    28771.000000
+mean         0.001668
+std          0.040812
+min          0.000000
+25%          0.000000
+50%          0.000000
+75%          0.000000
+max          1.000000
+Name: neighborhood_OAKWOOD-BEACH, dtype: float64
+root - INFO - count    28771.000000
+mean         0.006847
+std          0.082465
+min          0.000000
+25%          0.000000
+50%          0.000000
+75%          0.000000
+max          1.000000
+Name: neighborhood_OCEAN HILL, dtype: float64
+root - INFO - count    28771.000000
+mean         0.006743
+std          0.081839
+min          0.000000
+25%          0.000000
+50%          0.000000
+75%          0.000000
+max          1.000000
+Name: neighborhood_OCEAN PARKWAY-NORTH, dtype: float64
+root - INFO - count    28771.000000
+mean         0.004310
+std          0.065509
+min          0.000000
+25%          0.000000
+50%          0.000000
+75%          0.000000
+max          1.000000
+Name: neighborhood_OCEAN PARKWAY-SOUTH, dtype: float64
+root - INFO - count    28771.000000
+mean         0.005248
+std          0.072256
+min          0.000000
+25%          0.000000
+50%          0.000000
+75%          0.000000
+max          1.000000
+Name: neighborhood_OLD MILL BASIN, dtype: float64
+root - INFO - count    28771.000000
+mean         0.011644
+std          0.107278
+min          0.000000
+25%          0.000000
+50%          0.000000
+75%          0.000000
+max          1.000000
+Name: neighborhood_OZONE PARK, dtype: float64
+root - INFO - count    28771.000000
+mean         0.004032
+std          0.063370
+min          0.000000
+25%          0.000000
+50%          0.000000
+75%          0.000000
+max          1.000000
+Name: neighborhood_PARK SLOPE, dtype: float64
+root - INFO - count    28771.000000
+mean         0.002537
+std          0.050308
+min          0.000000
+25%          0.000000
+50%          0.000000
+75%          0.000000
+max          1.000000
+Name: neighborhood_PARK SLOPE SOUTH, dtype: float64
+root - INFO - count    28771.000000
+mean         0.002259
+std          0.047478
+min          0.000000
+25%          0.000000
+50%          0.000000
+75%          0.000000
+max          1.000000
+Name: neighborhood_PARKCHESTER, dtype: float64
+root - INFO - count    28771.000000
+mean         0.001912
+std          0.043681
+min          0.000000
+25%          0.000000
+50%          0.000000
+75%          0.000000
+max          1.000000
+Name: neighborhood_PELHAM GARDENS, dtype: float64
+root - INFO - count    28771.000000
+mean         0.003232
+std          0.056763
+min          0.000000
+25%          0.000000
+50%          0.000000
+75%          0.000000
+max          1.000000
+Name: neighborhood_PELHAM PARKWAY NORTH, dtype: float64
+root - INFO - count    28771.000000
+mean         0.001147
+std          0.033848
+min          0.000000
+25%          0.000000
+50%          0.000000
+75%          0.000000
+max          1.000000
+Name: neighborhood_PELHAM PARKWAY SOUTH, dtype: float64
+root - INFO - count    28771.00000
+mean         0.00146
+std          0.03818
+min          0.00000
+25%          0.00000
+50%          0.00000
+75%          0.00000
+max          1.00000
+Name: neighborhood_PLEASANT PLAINS, dtype: float64
+root - INFO - count    28771.000000
+mean         0.001182
+std          0.034357
+min          0.000000
+25%          0.000000
+50%          0.000000
+75%          0.000000
+max          1.000000
+Name: neighborhood_PORT IVORY, dtype: float64
+root - INFO - count    28771.000000
+mean         0.006013
+std          0.077311
+min          0.000000
+25%          0.000000
+50%          0.000000
+75%          0.000000
+max          1.000000
+Name: neighborhood_PORT RICHMOND, dtype: float64
+root - INFO - count    28771.000000
+mean         0.003719
+std          0.060871
+min          0.000000
+25%          0.000000
+50%          0.000000
+75%          0.000000
+max          1.000000
+Name: neighborhood_PRINCES BAY, dtype: float64
+root - INFO - count    28771.000000
+mean         0.000869
+std          0.029465
+min          0.000000
+25%          0.000000
+50%          0.000000
+75%          0.000000
+max          1.000000
+Name: neighborhood_PROSPECT HEIGHTS, dtype: float64
+root - INFO - count    28771.000000
+mean         0.012930
+std          0.112973
+min          0.000000
+25%          0.000000
+50%          0.000000
+75%          0.000000
+max          1.000000
+Name: neighborhood_QUEENS VILLAGE, dtype: float64
+root - INFO - count    28771.00000
+mean         0.00146
+std          0.03818
+min          0.00000
+25%          0.00000
+50%          0.00000
+75%          0.00000
+max          1.00000
+Name: neighborhood_RED HOOK, dtype: float64
+root - INFO - count    28771.000000
+mean         0.003580
+std          0.059727
+min          0.000000
+25%          0.000000
+50%          0.000000
+75%          0.000000
+max          1.000000
+Name: neighborhood_REGO PARK, dtype: float64
+root - INFO - count    28771.000000
+mean         0.015815
+std          0.124760
+min          0.000000
+25%          0.000000
+50%          0.000000
+75%          0.000000
+max          1.000000
+Name: neighborhood_RICHMOND HILL, dtype: float64
+root - INFO - count    28771.000000
+mean         0.001981
+std          0.044467
+min          0.000000
+25%          0.000000
+50%          0.000000
+75%          0.000000
+max          1.000000
+Name: neighborhood_RICHMONDTOWN, dtype: float64
+root - INFO - count    28771.000000
+mean         0.000278
+std          0.016673
+min          0.000000
+25%          0.000000
+50%          0.000000
+75%          0.000000
+max          1.000000
+Name: neighborhood_RICHMONDTOWN-LIGHTHS HILL, dtype: float64
+root - INFO - count    28771.000000
+mean         0.006187
+std          0.078414
+min          0.000000
+25%          0.000000
+50%          0.000000
+75%          0.000000
+max          1.000000
+Name: neighborhood_RIDGEWOOD, dtype: float64
+root - INFO - count    28771.000000
+mean         0.001981
+std          0.044467
+min          0.000000
+25%          0.000000
+50%          0.000000
+75%          0.000000
+max          1.000000
+Name: neighborhood_RIVERDALE, dtype: float64
+root - INFO - count    28771.000000
+mean         0.001077
+std          0.032808
+min          0.000000
+25%          0.000000
+50%          0.000000
+75%          0.000000
+max          1.000000
+Name: neighborhood_ROCKAWAY PARK, dtype: float64
+root - INFO - count    28771.000000
+mean         0.000035
+std          0.005896
+min          0.000000
+25%          0.000000
+50%          0.000000
+75%          0.000000
+max          1.000000
+Name: neighborhood_ROOSEVELT ISLAND, dtype: float64
+root - INFO - count    28771.000000
+mean         0.003997
+std          0.063097
+min          0.000000
+25%          0.000000
+50%          0.000000
+75%          0.000000
+max          1.000000
+Name: neighborhood_ROSEBANK, dtype: float64
+root - INFO - count    28771.000000
+mean         0.009941
+std          0.099207
+min          0.000000
+25%          0.000000
+50%          0.000000
+75%          0.000000
+max          1.000000
+Name: neighborhood_ROSEDALE, dtype: float64
+root - INFO - count    28771.000000
+mean         0.003510
+std          0.059146
+min          0.000000
+25%          0.000000
+50%          0.000000
+75%          0.000000
+max          1.000000
+Name: neighborhood_ROSSVILLE, dtype: float64
+root - INFO - count    28771.000000
+mean         0.001321
+std          0.036319
+min          0.000000
+25%          0.000000
+50%          0.000000
+75%          0.000000
+max          1.000000
+Name: neighborhood_ROSSVILLE-CHARLESTON, dtype: float64
+root - INFO - count    28771.000000
+mean         0.000104
+std          0.010211
+min          0.000000
+25%          0.000000
+50%          0.000000
+75%          0.000000
+max          1.000000
+Name: neighborhood_ROSSVILLE-PORT MOBIL, dtype: float64
+root - INFO - count    28771.000000
+mean         0.000278
+std          0.016673
+min          0.000000
+25%          0.000000
+50%          0.000000
+75%          0.000000
+max          1.000000
+Name: neighborhood_ROSSVILLE-RICHMOND VALLEY, dtype: float64
+root - INFO - count    28771.000000
+mean         0.005353
+std          0.072967
+min          0.000000
+25%          0.000000
+50%          0.000000
+75%          0.000000
+max          1.000000
+Name: neighborhood_SCHUYLERVILLE/PELHAM BAY, dtype: float64
+root - INFO - count    28771.000000
+mean         0.001425
+std          0.037724
+min          0.000000
+25%          0.000000
+50%          0.000000
+75%          0.000000
+max          1.000000
+Name: neighborhood_SEAGATE, dtype: float64
+root - INFO - count    28771.000000
+mean         0.009176
+std          0.095352
+min          0.000000
+25%          0.000000
+50%          0.000000
+75%          0.000000
+max          1.000000
+Name: neighborhood_SHEEPSHEAD BAY, dtype: float64
+root - INFO - count    28771.000000
+mean         0.001321
+std          0.036319
+min          0.000000
+25%          0.000000
+50%          0.000000
+75%          0.000000
+max          1.000000
+Name: neighborhood_SILVER LAKE, dtype: float64
+root - INFO - count    28771.000000
+mean         0.015988
+std          0.125432
+min          0.000000
+25%          0.000000
+50%          0.000000
+75%          0.000000
+max          1.000000
+Name: neighborhood_SO. JAMAICA-BAISLEY PARK, dtype: float64
+root - INFO - count    28771.000000
+mean         0.000695
+std          0.026357
+min          0.000000
+25%          0.000000
+50%          0.000000
+75%          0.000000
+max          1.000000
+Name: neighborhood_SOHO, dtype: float64
+root - INFO - count    28771.000000
+mean         0.009384
+std          0.096419
+min          0.000000
+25%          0.000000
+50%          0.000000
+75%          0.000000
+max          1.000000
+Name: neighborhood_SOUNDVIEW, dtype: float64
+root - INFO - count    28771.000000
+mean         0.005665
+std          0.075057
+min          0.000000
+25%          0.000000
+50%          0.000000
+75%          0.000000
+max          1.000000
+Name: neighborhood_SOUTH BEACH, dtype: float64
+root - INFO - count    28771.000000
+mean         0.012721
+std          0.112070
+min          0.000000
+25%          0.000000
+50%          0.000000
+75%          0.000000
+max          1.000000
+Name: neighborhood_SOUTH JAMAICA, dtype: float64
+root - INFO - count    28771.000000
+mean         0.013208
+std          0.114165
+min          0.000000
+25%          0.000000
+50%          0.000000
+75%          0.000000
+max          1.000000
+Name: neighborhood_SOUTH OZONE PARK, dtype: float64
+root - INFO - count    28771.000000
+mean         0.000035
+std          0.005896
+min          0.000000
+25%          0.000000
+50%          0.000000
+75%          0.000000
+max          1.000000
+Name: neighborhood_SOUTHBRIDGE, dtype: float64
+root - INFO - count    28771.000000
+mean         0.001807
+std          0.042476
+min          0.000000
+25%          0.000000
+50%          0.000000
+75%          0.000000
+max          1.000000
+Name: neighborhood_SPRING CREEK, dtype: float64
+root - INFO - count    28771.000000
+mean         0.013938
+std          0.117234
+min          0.000000
+25%          0.000000
+50%          0.000000
+75%          0.000000
+max          1.000000
+Name: neighborhood_SPRINGFIELD GARDENS, dtype: float64
+root - INFO - count    28771.000000
+mean         0.014807
+std          0.120780
+min          0.000000
+25%          0.000000
+50%          0.000000
+75%          0.000000
+max          1.000000
+Name: neighborhood_ST. ALBANS, dtype: float64
+root - INFO - count    28771.000000
+mean         0.002781
+std          0.052659
+min          0.000000
+25%          0.000000
+50%          0.000000
+75%          0.000000
+max          1.000000
+Name: neighborhood_STAPLETON, dtype: float64
+root - INFO - count    28771.000000
+mean         0.001981
+std          0.044467
+min          0.000000
+25%          0.000000
+50%          0.000000
+75%          0.000000
+max          1.000000
+Name: neighborhood_STAPLETON-CLIFTON, dtype: float64
+root - INFO - count    28771.000000
+mean         0.003545
+std          0.059437
+min          0.000000
+25%          0.000000
+50%          0.000000
+75%          0.000000
+max          1.000000
+Name: neighborhood_SUNNYSIDE, dtype: float64
+root - INFO - count    28771.000000
+mean         0.007473
+std          0.086123
+min          0.000000
+25%          0.000000
+50%          0.000000
+75%          0.000000
+max          1.000000
+Name: neighborhood_SUNSET PARK, dtype: float64
+root - INFO - count    28771.000000
+mean         0.007647
+std          0.087111
+min          0.000000
+25%          0.000000
+50%          0.000000
+75%          0.000000
+max          1.000000
+Name: neighborhood_THROGS NECK, dtype: float64
+root - INFO - count    28771.000000
+mean         0.000834
+std          0.028871
+min          0.000000
+25%          0.000000
+50%          0.000000
+75%          0.000000
+max          1.000000
+Name: neighborhood_TODT HILL, dtype: float64
+root - INFO - count    28771.000000
+mean         0.000765
+std          0.027642
+min          0.000000
+25%          0.000000
+50%          0.000000
+75%          0.000000
+max          1.000000
+Name: neighborhood_TOMPKINSVILLE, dtype: float64
+root - INFO - count    28771.000000
+mean         0.005909
+std          0.076642
+min          0.000000
+25%          0.000000
+50%          0.000000
+75%          0.000000
+max          1.000000
+Name: neighborhood_TOTTENVILLE, dtype: float64
+root - INFO - count    28771.000000
+mean         0.002051
+std          0.045239
+min          0.000000
+25%          0.000000
+50%          0.000000
+75%          0.000000
+max          1.000000
+Name: neighborhood_TRAVIS, dtype: float64
+root - INFO - count    28771.000000
+mean         0.000104
+std          0.010211
+min          0.000000
+25%          0.000000
+50%          0.000000
+75%          0.000000
+max          1.000000
+Name: neighborhood_TRIBECA, dtype: float64
+root - INFO - count    28771.000000
+mean         0.002051
+std          0.045239
+min          0.000000
+25%          0.000000
+50%          0.000000
+75%          0.000000
+max          1.000000
+Name: neighborhood_UPPER EAST SIDE (59-79), dtype: float64
+root - INFO - count    28771.000000
+mean         0.001842
+std          0.042881
+min          0.000000
+25%          0.000000
+50%          0.000000
+75%          0.000000
+max          1.000000
+Name: neighborhood_UPPER EAST SIDE (79-96), dtype: float64
+root - INFO - count    28771.000000
+mean         0.000139
+std          0.011790
+min          0.000000
+25%          0.000000
+50%          0.000000
+75%          0.000000
+max          1.000000
+Name: neighborhood_UPPER EAST SIDE (96-110), dtype: float64
+root - INFO - count    28771.000000
+mean         0.000695
+std          0.026357
+min          0.000000
+25%          0.000000
+50%          0.000000
+75%          0.000000
+max          1.000000
+Name: neighborhood_UPPER WEST SIDE (59-79), dtype: float64
+root - INFO - count    28771.000000
+mean         0.001217
+std          0.034858
+min          0.000000
+25%          0.000000
+50%          0.000000
+75%          0.000000
+max          1.000000
+Name: neighborhood_UPPER WEST SIDE (79-96), dtype: float64
+root - INFO - count    28771.000000
+mean         0.000417
+std          0.020419
+min          0.000000
+25%          0.000000
+50%          0.000000
+75%          0.000000
+max          1.000000
+Name: neighborhood_UPPER WEST SIDE (96-116), dtype: float64
+root - INFO - count    28771.000000
+mean         0.005700
+std          0.075285
+min          0.000000
+25%          0.000000
+50%          0.000000
+75%          0.000000
+max          1.000000
+Name: neighborhood_WAKEFIELD, dtype: float64
+root - INFO - count    28771.000000
+mean         0.001147
+std          0.033848
+min          0.000000
+25%          0.000000
+50%          0.000000
+75%          0.000000
+max          1.000000
+Name: neighborhood_WASHINGTON HEIGHTS LOWER, dtype: float64
+root - INFO - count    28771.000000
+mean         0.000765
+std          0.027642
+min          0.000000
+25%          0.000000
+50%          0.000000
+75%          0.000000
+max          1.000000
+Name: neighborhood_WASHINGTON HEIGHTS UPPER, dtype: float64
+root - INFO - count    28771.00000
+mean         0.00723
+std          0.08472
+min          0.00000
+25%          0.00000
+50%          0.00000
+75%          0.00000
+max          1.00000
+Name: neighborhood_WEST NEW BRIGHTON, dtype: float64
+root - INFO - count    28771.000000
+mean         0.002885
+std          0.053634
+min          0.000000
+25%          0.000000
+50%          0.000000
+75%          0.000000
+max          1.000000
+Name: neighborhood_WESTCHESTER, dtype: float64
+root - INFO - count    28771.000000
+mean         0.006048
+std          0.077533
+min          0.000000
+25%          0.000000
+50%          0.000000
+75%          0.000000
+max          1.000000
+Name: neighborhood_WESTERLEIGH, dtype: float64
+root - INFO - count    28771.000000
+mean         0.007264
+std          0.084922
+min          0.000000
+25%          0.000000
+50%          0.000000
+75%          0.000000
+max          1.000000
+Name: neighborhood_WHITESTONE, dtype: float64
+root - INFO - count    28771.000000
+mean         0.010670
+std          0.102747
+min          0.000000
+25%          0.000000
+50%          0.000000
+75%          0.000000
+max          1.000000
+Name: neighborhood_WILLIAMSBRIDGE, dtype: float64
+root - INFO - count    28771.000000
+mean         0.000695
+std          0.026357
+min          0.000000
+25%          0.000000
+50%          0.000000
+75%          0.000000
+max          1.000000
+Name: neighborhood_WILLIAMSBURG-CENTRAL, dtype: float64
+root - INFO - count    28771.000000
+mean         0.003789
+std          0.061435
+min          0.000000
+25%          0.000000
+50%          0.000000
+75%          0.000000
+max          1.000000
+Name: neighborhood_WILLIAMSBURG-EAST, dtype: float64
+root - INFO - count    28771.000000
+mean         0.001217
+std          0.034858
+min          0.000000
+25%          0.000000
+50%          0.000000
+75%          0.000000
+max          1.000000
+Name: neighborhood_WILLIAMSBURG-NORTH, dtype: float64
+root - INFO - count    28771.000000
+mean         0.001251
+std          0.035352
+min          0.000000
+25%          0.000000
+50%          0.000000
+75%          0.000000
+max          1.000000
+Name: neighborhood_WILLIAMSBURG-SOUTH, dtype: float64
+root - INFO - count    28771.000000
+mean         0.003962
+std          0.062823
+min          0.000000
+25%          0.000000
+50%          0.000000
+75%          0.000000
+max          1.000000
+Name: neighborhood_WILLOWBROOK, dtype: float64
+root - INFO - count    28771.000000
+mean         0.001703
+std          0.041234
+min          0.000000
+25%          0.000000
+50%          0.000000
+75%          0.000000
+max          1.000000
+Name: neighborhood_WINDSOR TERRACE, dtype: float64
+root - INFO - count    28771.000000
+mean         0.009802
+std          0.098518
+min          0.000000
+25%          0.000000
+50%          0.000000
+75%          0.000000
+max          1.000000
+Name: neighborhood_WOODHAVEN, dtype: float64
+root - INFO - count    28771.000000
+mean         0.001356
+std          0.036793
+min          0.000000
+25%          0.000000
+50%          0.000000
+75%          0.000000
+max          1.000000
+Name: neighborhood_WOODLAWN, dtype: float64
+root - INFO - count    28771.000000
+mean         0.003198
+std          0.056458
+min          0.000000
+25%          0.000000
+50%          0.000000
+75%          0.000000
+max          1.000000
+Name: neighborhood_WOODROW, dtype: float64
+root - INFO - count    28771.000000
+mean         0.003059
+std          0.055221
+min          0.000000
+25%          0.000000
+50%          0.000000
+75%          0.000000
+max          1.000000
+Name: neighborhood_WOODSIDE, dtype: float64
+root - INFO - count    28771.000000
+mean         0.001425
+std          0.037724
+min          0.000000
+25%          0.000000
+50%          0.000000
+75%          0.000000
+max          1.000000
+Name: neighborhood_WYCKOFF HEIGHTS, dtype: float64
+root - INFO - count    28771.000000
+mean         0.442251
+std          0.496662
+min          0.000000
+25%          0.000000
+50%          0.000000
+75%          1.000000
+max          1.000000
+Name: building_class_category_01 ONE FAMILY DWELLINGS                    , dtype: float64
+root - INFO - count    28771.000000
+mean         0.344409
+std          0.475184
+min          0.000000
+25%          0.000000
+50%          0.000000
+75%          1.000000
+max          1.000000
+Name: building_class_category_02 TWO FAMILY DWELLINGS                    , dtype: float64
+root - INFO - count    28771.000000
+mean         0.080811
+std          0.272549
+min          0.000000
+25%          0.000000
+50%          0.000000
+75%          0.000000
+max          1.000000
+Name: building_class_category_03 THREE FAMILY DWELLINGS                  , dtype: float64
+root - INFO - count    28771.000000
+mean         0.001356
+std          0.036793
+min          0.000000
+25%          0.000000
+50%          0.000000
+75%          0.000000
+max          1.000000
+Name: building_class_category_05 TAX CLASS 1 VACANT LAND                 , dtype: float64
+root - INFO - count    28771.000000
+mean         0.001425
+std          0.037724
+min          0.000000
+25%          0.000000
+50%          0.000000
+75%          0.000000
+max          1.000000
+Name: building_class_category_06 TAX CLASS 1 - OTHER                     , dtype: float64
+root - INFO - count    28771.000000
+mean         0.060547
+std          0.238502
+min          0.000000
+25%          0.000000
+50%          0.000000
+75%          0.000000
+max          1.000000
+Name: building_class_category_07 RENTALS - WALKUP APARTMENTS             , dtype: float64
+root - INFO - count    28771.000000
+mean         0.006882
+std          0.082673
+min          0.000000
+25%          0.000000
+50%          0.000000
+75%          0.000000
+max          1.000000
+Name: building_class_category_08 RENTALS - ELEVATOR APARTMENTS           , dtype: float64
+root - INFO - count    28771.000000
+mean         0.000382
+std          0.019550
+min          0.000000
+25%          0.000000
+50%          0.000000
+75%          0.000000
+max          1.000000
+Name: building_class_category_09 COOPS - WALKUP APARTMENTS               , dtype: float64
+root - INFO - count    28771.000000
+mean         0.001112
+std          0.033332
+min          0.000000
+25%          0.000000
+50%          0.000000
+75%          0.000000
+max          1.000000
+Name: building_class_category_10 COOPS - ELEVATOR APARTMENTS             , dtype: float64
+root - INFO - count    28771.000000
+mean         0.000035
+std          0.005896
+min          0.000000
+25%          0.000000
+50%          0.000000
+75%          0.000000
+max          1.000000
+Name: building_class_category_11 SPECIAL CONDO BILLING LOTS              , dtype: float64
+root - INFO - count    28771.000000
+mean         0.000174
+std          0.013182
+min          0.000000
+25%          0.000000
+50%          0.000000
+75%          0.000000
+max          1.000000
+Name: building_class_category_11A CONDO-RENTALS                           , dtype: float64
+root - INFO - count    28771.000000
+mean         0.011296
+std          0.105683
+min          0.000000
+25%          0.000000
+50%          0.000000
+75%          0.000000
+max          1.000000
+Name: building_class_category_14 RENTALS - 4-10 UNIT                     , dtype: float64
+root - INFO - count    28771.000000
+mean         0.007647
+std          0.087111
+min          0.000000
+25%          0.000000
+50%          0.000000
+75%          0.000000
+max          1.000000
+Name: building_class_category_21 OFFICE BUILDINGS                        , dtype: float64
+root - INFO - count    28771.000000
+mean         0.016510
+std          0.127427
+min          0.000000
+25%          0.000000
+50%          0.000000
+75%          0.000000
+max          1.000000
+Name: building_class_category_22 STORE BUILDINGS                         , dtype: float64
+root - INFO - count    28771.000000
+mean         0.000730
+std          0.027007
+min          0.000000
+25%          0.000000
+50%          0.000000
+75%          0.000000
+max          1.000000
+Name: building_class_category_23 LOFT BUILDINGS                          , dtype: float64
+root - INFO - count    28771.000000
+mean         0.000278
+std          0.016673
+min          0.000000
+25%          0.000000
+50%          0.000000
+75%          0.000000
+max          1.000000
+Name: building_class_category_25 LUXURY HOTELS                           , dtype: float64
+root - INFO - count    28771.000000
+mean         0.002120
+std          0.045997
+min          0.000000
+25%          0.000000
+50%          0.000000
+75%          0.000000
+max          1.000000
+Name: building_class_category_26 OTHER HOTELS                            , dtype: float64
+root - INFO - count    28771.000000
+mean         0.003719
+std          0.060871
+min          0.000000
+25%          0.000000
+50%          0.000000
+75%          0.000000
+max          1.000000
+Name: building_class_category_27 FACTORIES                               , dtype: float64
+root - INFO - count    28771.000000
+mean         0.006187
+std          0.078414
+min          0.000000
+25%          0.000000
+50%          0.000000
+75%          0.000000
+max          1.000000
+Name: building_class_category_29 COMMERCIAL GARAGES                      , dtype: float64
+root - INFO - count    28771.000000
+mean         0.005804
+std          0.075967
+min          0.000000
+25%          0.000000
+50%          0.000000
+75%          0.000000
+max          1.000000
+Name: building_class_category_30 WAREHOUSES                              , dtype: float64
+root - INFO - count    28771.000000
+mean         0.000521
+std          0.022828
+min          0.000000
+25%          0.000000
+50%          0.000000
+75%          0.000000
+max          1.000000
+Name: building_class_category_31 COMMERCIAL VACANT LAND                  , dtype: float64
+root - INFO - count    28771.000000
+mean         0.000973
+std          0.031182
+min          0.000000
+25%          0.000000
+50%          0.000000
+75%          0.000000
+max          1.000000
+Name: building_class_category_32 HOSPITAL AND HEALTH FACILITIES          , dtype: float64
+root - INFO - count    28771.000000
+mean         0.000904
+std          0.030048
+min          0.000000
+25%          0.000000
+50%          0.000000
+75%          0.000000
+max          1.000000
+Name: building_class_category_33 EDUCATIONAL FACILITIES                  , dtype: float64
+root - INFO - count    28771.000000
+mean         0.000174
+std          0.013182
+min          0.000000
+25%          0.000000
+50%          0.000000
+75%          0.000000
+max          1.000000
+Name: building_class_category_34 THEATRES                                , dtype: float64
+root - INFO - count    28771.000000
+mean         0.000556
+std          0.023576
+min          0.000000
+25%          0.000000
+50%          0.000000
+75%          0.000000
+max          1.000000
+Name: building_class_category_35 INDOOR PUBLIC AND CULTURAL FACILITIES   , dtype: float64
+root - INFO - count    28771.000000
+mean         0.000035
+std          0.005896
+min          0.000000
+25%          0.000000
+50%          0.000000
+75%          0.000000
+max          1.000000
+Name: building_class_category_36 OUTDOOR RECREATIONAL FACILITIES         , dtype: float64
+root - INFO - count    28771.000000
+mean         0.002155
+std          0.046372
+min          0.000000
+25%          0.000000
+50%          0.000000
+75%          0.000000
+max          1.000000
+Name: building_class_category_37 RELIGIOUS FACILITIES                    , dtype: float64
+root - INFO - count    28771.000000
+mean         0.000487
+std          0.022054
+min          0.000000
+25%          0.000000
+50%          0.000000
+75%          0.000000
+max          1.000000
+Name: building_class_category_38 ASYLUMS AND HOMES                       , dtype: float64
+root - INFO - count    28771.000000
+mean         0.000035
+std          0.005896
+min          0.000000
+25%          0.000000
+50%          0.000000
+75%          0.000000
+max          1.000000
+Name: building_class_category_39 TRANSPORTATION FACILITIES               , dtype: float64
+root - INFO - count    28771.000000
+mean         0.000035
+std          0.005896
+min          0.000000
+25%          0.000000
+50%          0.000000
+75%          0.000000
+max          1.000000
+Name: building_class_category_40 SELECTED GOVERNMENTAL FACILITIES        , dtype: float64
+root - INFO - count    28771.000000
+mean         0.000452
+std          0.021252
+min          0.000000
+25%          0.000000
+50%          0.000000
+75%          0.000000
+max          1.000000
+Name: building_class_category_41 TAX CLASS 4 - OTHER                     , dtype: float64
+root - INFO - count    28771.000000
+mean         0.870251
+std          0.336033
+min          0.000000
+25%          1.000000
+50%          1.000000
+75%          1.000000
+max          1.000000
+Name: tax_class_at_time_of_sale_1, dtype: float64
+root - INFO - count    28771.000000
+mean         0.080428
+std          0.271960
+min          0.000000
+25%          0.000000
+50%          0.000000
+75%          0.000000
+max          1.000000
+Name: tax_class_at_time_of_sale_2, dtype: float64
+root - INFO - count    28771.0
+mean         0.0
+std          0.0
+min          0.0
+25%          0.0
+50%          0.0
+75%          0.0
+max          0.0
+Name: tax_class_at_time_of_sale_3, dtype: float64
+root - INFO - count    28771.00000
+mean         0.04932
+std          0.21654
+min          0.00000
+25%          0.00000
+50%          0.00000
+75%          0.00000
+max          1.00000
+Name: tax_class_at_time_of_sale_4, dtype: float64
+root - INFO - count    28771.000000
+mean         0.120086
+std          0.325068
+min          0.000000
+25%          0.000000
+50%          0.000000
+75%          0.000000
+max          1.000000
+Name: borough_name_Bronx, dtype: float64
+root - INFO - count    28771.000000
+mean         0.293699
+std          0.455463
+min          0.000000
+25%          0.000000
+50%          0.000000
+75%          1.000000
+max          1.000000
+Name: borough_name_Brooklyn, dtype: float64
+root - INFO - count    28771.000000
+mean         0.032498
+std          0.177322
+min          0.000000
+25%          0.000000
+50%          0.000000
+75%          0.000000
+max          1.000000
+Name: borough_name_Manhattan, dtype: float64
+root - INFO - count    28771.000000
+mean         0.377985
+std          0.484892
+min          0.000000
+25%          0.000000
+50%          0.000000
+75%          1.000000
+max          1.000000
+Name: borough_name_Queens, dtype: float64
+root - INFO - count    28771.000000
+mean         0.175733
+std          0.380599
+min          0.000000
+25%          0.000000
+50%          0.000000
+75%          0.000000
+max          1.000000
+Name: borough_name_Staten Island, dtype: float64
+root - INFO - count    28771.000000
+mean         0.353829
+std          0.478165
+min          0.000000
+25%          0.000000
+50%          0.000000
+75%          1.000000
+max          1.000000
+Name: sale_year_2016, dtype: float64
+root - INFO - count    28771.000000
+mean         0.646171
+std          0.478165
+min          0.000000
+25%          0.000000
+50%          1.000000
+75%          1.000000
+max          1.000000
+Name: sale_year_2017, dtype: float64
+root - INFO - count    28771.000000
+mean         0.080324
+std          0.271799
+min          0.000000
+25%          0.000000
+50%          0.000000
+75%          0.000000
+max          1.000000
+Name: sale_month_1, dtype: float64
+root - INFO - count    28771.000000
+mean         0.075701
+std          0.264524
+min          0.000000
+25%          0.000000
+50%          0.000000
+75%          0.000000
+max          1.000000
+Name: sale_month_2, dtype: float64
+root - INFO - count    28771.000000
+mean         0.088770
+std          0.284416
+min          0.000000
+25%          0.000000
+50%          0.000000
+75%          0.000000
+max          1.000000
+Name: sale_month_3, dtype: float64
+root - INFO - count    28771.000000
+mean         0.076396
+std          0.265636
+min          0.000000
+25%          0.000000
+50%          0.000000
+75%          0.000000
+max          1.000000
+Name: sale_month_4, dtype: float64
+root - INFO - count    28771.000000
+mean         0.086163
+std          0.280610
+min          0.000000
+25%          0.000000
+50%          0.000000
+75%          0.000000
+max          1.000000
+Name: sale_month_5, dtype: float64
+root - INFO - count    28771.000000
+mean         0.095895
+std          0.294453
+min          0.000000
+25%          0.000000
+50%          0.000000
+75%          0.000000
+max          1.000000
+Name: sale_month_6, dtype: float64
+root - INFO - count    28771.000000
+mean         0.078099
+std          0.268333
+min          0.000000
+25%          0.000000
+50%          0.000000
+75%          0.000000
+max          1.000000
+Name: sale_month_7, dtype: float64
+root - INFO - count    28771.000000
+mean         0.064822
+std          0.246216
+min          0.000000
+25%          0.000000
+50%          0.000000
+75%          0.000000
+max          1.000000
+Name: sale_month_8, dtype: float64
+root - INFO - count    28771.000000
+mean         0.093984
+std          0.291811
+min          0.000000
+25%          0.000000
+50%          0.000000
+75%          0.000000
+max          1.000000
+Name: sale_month_9, dtype: float64
+root - INFO - count    28771.000000
+mean         0.079768
+std          0.270938
+min          0.000000
+25%          0.000000
+50%          0.000000
+75%          0.000000
+max          1.000000
+Name: sale_month_10, dtype: float64
+root - INFO - count    28771.000000
+mean         0.085190
+std          0.279169
+min          0.000000
+25%          0.000000
+50%          0.000000
+75%          0.000000
+max          1.000000
+Name: sale_month_11, dtype: float64
+root - INFO - count    28771.000000
+mean         0.094887
+std          0.293064
+min          0.000000
+25%          0.000000
+50%          0.000000
+75%          0.000000
+max          1.000000
+Name: sale_month_12, dtype: float64
